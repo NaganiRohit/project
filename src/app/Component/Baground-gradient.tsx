@@ -6,7 +6,7 @@ import Image from "next/image";
 export default function BackgroundGradientDemo() {
   return (
     <div className="mx-1">
-      <BackgroundGradient className="rounded-[22px] h-52 max-w-sm p-4 sm:p-10 bg-white dark:bg-zinc-900">
+      <BackgroundGradient className="rounded-[22px] h-52 max-w-sm p-4 sm:p-10 overflow-hidden bg-white dark:bg-zinc-900">
         {/* <Image
           src={`/jordans.webp`}
           alt="jordans"

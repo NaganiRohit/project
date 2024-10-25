@@ -10,7 +10,7 @@ export default function SpotlightPreview() {
 <>
 
 
-<div className="h-[20rem] w-full rounded-md flex md:items-center  md:justify-center bg-black/[0.96] antialiased bg-grid-white/[0.02] relative overflow-hidden pt-36 
+<div className="h-[22rem] w-full rounded-md flex md:items-center  md:justify-center bg-black/[0.96] antialiased bg-grid-white/[0.02] relative overflow-hidden pt-36 
        ">
       <Spotlight
         className="-top-40 left-0 md:left-60 md:-top-20"
