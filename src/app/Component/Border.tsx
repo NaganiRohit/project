@@ -6,8 +6,8 @@ export default function MovingBorderDemo() {
   return (
     <div>
       <Button
-        borderRadius="1rem"
-        className=" bg-slate-900 py-2 h-auto text-neutral-200 text-[22px] border-none font-sans rounded-xl"
+        borderRadius="2rem"
+        className=" bg-slate-900 p-2  text-neutral-200 text-[22px] border-none font-sans"
       >
         Explore Courses
       </Button>
