@@ -26,10 +26,7 @@ function home() {
   <SectionTwo />
   <SectionTwo />
   <SectionTwo />
-  <SectionTwo />
-  <SectionTwo />
-  <SectionTwo />
-  <SectionTwo />
+
 
   </div>
  
@@ -42,9 +39,20 @@ function home() {
 <MovingCard/>
 </div>
 
+<div className='w-full h-screen overflow-hidden'>
 <CardHover/>
+</div>
+
+
+<div className='w-full h-screen overflow-hidden'>
+  
 <WavyBackgrounddemo/>
+</div>
+
+<div className='w-full h-fit overflow-hidden'>
 <Footter/>
+
+</div>
 
     
       

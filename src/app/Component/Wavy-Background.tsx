@@ -55,13 +55,13 @@ const people = [
 
 const WavyBackgrounddemo = () => {
   return (
-    <div className='w-full h-screen overflow-hidden relative '>
+    <div className='w-full h-full overflow-hidden relative '>
       
       <WavyBackground className="max-w-6xl mx-auto pb-40 mt-20">
-      <p className="text-2xl md:text-4xl lg:text-8xl text-white font-bold inter-var text-center">
+      <p className="text-xl md:text-2xl lg:text-4xl text-white font-bold inter-var text-center">
         Meet Our Instructors
       </p>
-      <p className="text-base md:text-xl mt-4 text-white font-normal inter-var text-center">
+      <p className="text-base md:text-sm mt-4 text-white font-normal inter-var text-center">
       Discover the talented professionals who will guide your musical journey
       </p>
       

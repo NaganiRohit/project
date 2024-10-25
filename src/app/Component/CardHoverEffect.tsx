@@ -51,15 +51,15 @@ export const projects = [
 
 function CardHoverEffect() {
   return (
-    <div className='w-full h-screen overflow-hidden bg-gray-950'>
+    <div className='w-full h-full overflow-hidden bg-gray-950'>
      <div className='flex  w-full justify-center flex-wrap'>
-     <h1 className='text-sky-500 pt-30 pt-20 pb-10 '>
+     <h1 className='text-sky-500 pt-30 pt-20 pb-10 text-xl'>
         FEATURED WEBINARS
       </h1>
      </div>
-<div className='flex justify-center max-w-28xl mx-auto px-10'>
+<div className='flex justify-center max-w-20xl mx-auto px-5'>
 
-<p className='  text-6xl font-bold '>
+<p className='  text-2xl font-bold '>
     Enhance your musical journey
    </p>
 

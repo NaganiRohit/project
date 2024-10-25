@@ -8,21 +8,21 @@ import Link from "next/link";
 function Courses() {
   return (
     <div className='p-10' >
-      <div className='text-6xl flex justify-center mt-32 font-bold'> All Courses </div>
+      <div className='text-3xl flex justify-center mt-32 font-bold'> All Courses </div>
 
    <div className=' grid lg:grid-cols-2 md:grid-cols-1 flex-wrap   '>
    <CardContainer  className="inter-var">
       <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
         <CardItem
           translateZ="50"
-          className="text-2xl font-bold text-neutral-600 dark:text-white"
+          className="text-xl font-bold text-neutral-600 dark:text-white"
         >
           Guitar:
         </CardItem>
         <CardItem
           as="p"
           translateZ="60"
-          className="text-neutral-500 text-lg max-w-sm mt-2 dark:text-neutral-300"
+          className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
         >Guitar: A string instrument played with a pick or fingers. It’s popular in rock, pop, and jazz music.
 
         
@@ -42,14 +42,14 @@ function Courses() {
             as={Link}
             href=""
             target="__blank"
-            className="px-4 py-2 rounded-xl text-sm font-normal dark:text-white"
+            className="px-4 py-2 rounded-xl text-[0.5rem] font-normal dark:text-white"
           >
             Try now →
           </CardItem>
           <CardItem
             translateZ={20}
             as="button"
-            className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-sm font-bold"
+            className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-[0.5rem] font-bold"
           >
             Explore
           </CardItem>
@@ -60,14 +60,14 @@ function Courses() {
       <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
         <CardItem
           translateZ="50"
-          className="text-2xl font-bold text-neutral-600 dark:text-white"
+          className="text-xl font-bold text-neutral-600 dark:text-white"
         >
         Piano:
         </CardItem>
         <CardItem
           as="p"
           translateZ="60"
-          className="text-neutral-500 text-lg max-w-sm mt-2 dark:text-neutral-300"
+          className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
         >
        A keyboard instrument with 88 keys. It’s used in both classical and modern music.
         
@@ -87,14 +87,14 @@ function Courses() {
             as={Link}
             href=""
             target="__blank"
-            className="px-4 py-2 rounded-xl text-sm font-normal dark:text-white"
+            className="px-4 py-2 rounded-xl text-[0.5rem] font-normal dark:text-white"
           >
             Try now →
           </CardItem>
           <CardItem
             translateZ={20}
             as="button"
-            className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-sm font-bold"
+            className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-[0.5rem] font-bold"
           >
             Explore
           </CardItem>
@@ -105,14 +105,14 @@ function Courses() {
       <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
         <CardItem
           translateZ="50"
-          className="text-2xl font-bold text-neutral-600 dark:text-white"
+          className="text-xl font-bold text-neutral-600 dark:text-white"
         >
           Violin: 
         </CardItem>
         <CardItem
           as="p"
           translateZ="60"
-          className="text-neutral-500 text-lg max-w-sm mt-2 dark:text-neutral-300"
+          className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
         >
         
 
@@ -134,14 +134,14 @@ A small string instrument played with a bow. It plays a key role in classical mu
             as={Link}
             href=""
             target="__blank"
-            className="px-4 py-2 rounded-xl text-sm font-normal dark:text-white"
+            className="px-4 py-2 rounded-xl text-[0.5rem] font-normal dark:text-white"
           >
             Try now →
           </CardItem>
           <CardItem
             translateZ={20}
             as="button"
-            className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-sm font-bold"
+            className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-[0.5rem] font-bold"
           >
             Explore
           </CardItem>
@@ -152,14 +152,14 @@ A small string instrument played with a bow. It plays a key role in classical mu
       <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
         <CardItem
           translateZ="50"
-          className="text-2xl font-bold text-neutral-600 dark:text-white"
+          className="text-xl font-bold text-neutral-600 dark:text-white"
         >Drums:
           
         </CardItem>
         <CardItem
           as="p"
           translateZ="60"
-          className="text-neutral-500 text-lg max-w-sm mt-2 dark:text-neutral-300"
+          className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"  /////lg//sm///////
         >
  A percussion instrument with various drums and cymbals. It’s used to provide rhythm in bands and orchestras.
         </CardItem>
@@ -178,14 +178,14 @@ A small string instrument played with a bow. It plays a key role in classical mu
             as={Link}
             href=""
             target="__blank"
-            className="px-4 py-2 rounded-xl text-sm font-normal dark:text-white"
+            className="px-4 py-2 rounded-xl text-[0.5rem] font-normal dark:text-white"
           >
             Try now →
           </CardItem>
           <CardItem
             translateZ={20}
             as="button"
-            className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-sm font-bold"
+            className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-[0.5rem] font-bold"
           >
             Explore
           </CardItem>

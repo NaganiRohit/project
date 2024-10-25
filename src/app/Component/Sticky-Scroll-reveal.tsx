@@ -9,7 +9,7 @@ const content = [
     description:
       "Work together in real time with your team, clients, and stakeholders. Collaborate on documents, share ideas, and make decisions quickly. With our platform, you can streamline your workflow and increase productivity.",
     content: (
-      <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] flex items-center justify-center text-white">
+      <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] flex items-center justify-center text-white  ">
         Collaborative Editing
       </div>
     ),
@@ -53,7 +53,7 @@ const content = [
 ];
 export default function StickyScrollRevealDemo() {
   return (
-    <div className="w-full">
+    <div className="w-full text-xl">
       <StickyScroll content={content} />
     </div>
   );

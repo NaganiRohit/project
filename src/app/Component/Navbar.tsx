@@ -11,7 +11,7 @@ function Navbar({ className }: { className?: string }) {
   const [active, setActive] = useState<string | null>(null);
   return (
     
-    <div className={cn("academy fixed top-10 inset-x-0 max-w-2xl mx-auto z-50", className)}
+    <div className={cn("academy text-xl fixed top-10 inset-x-0 max-w-xl mx-auto z-50", className)}
     >
        <Menu setActive={setActive}>
         <Link href={"/"}>
@@ -20,7 +20,7 @@ function Navbar({ className }: { className?: string }) {
        
 
         <MenuItem setActive={setActive} active={active} item="Services">
-          <div className="flex flex-col space-y-4 text-2xl">
+          <div className="flex flex-col space-y-4 text-xl">
             <HoveredLink href="/web-dev">Web Development</HoveredLink>
             <HoveredLink href="/interface-design">Interface Design</HoveredLink>
             <HoveredLink href="/seo">Search Engine Optimization</HoveredLink>
@@ -32,7 +32,7 @@ function Navbar({ className }: { className?: string }) {
         
         
         <MenuItem setActive={setActive} active={active} item="About">
-          <div className="flex flex-col space-y-4 text-2xl">
+          <div className="flex flex-col space-y-4 text-xl">
             <HoveredLink href="/hobby">Hobby</HoveredLink>
             <HoveredLink href="/individual">Individual</HoveredLink>
             <HoveredLink href="/team">Team</HoveredLink>
