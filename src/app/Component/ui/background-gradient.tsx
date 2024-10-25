@@ -22,7 +22,7 @@ export const BackgroundGradient = ({
     },
   };
   return (
-    <div className={cn("relative p-[4px] group", containerClassName)}>
+    <div className={cn("relative p-[2px] group" , containerClassName)}>
       <motion.div
         variants={animate ? variants : undefined}
         initial={animate ? "initial" : undefined}
@@ -37,7 +37,7 @@ export const BackgroundGradient = ({
             : undefined
         }
         style={{
-          backgroundSize: animate ? "400% 400%" : undefined,
+          backgroundSize: animate ? "100% 100%" : undefined,
         }}
         className={cn(
           "absolute inset-0 rounded-3xl z-[1] opacity-60 group-hover:opacity-100 blur-xl  transition duration-500 will-change-transform",
@@ -58,7 +58,7 @@ export const BackgroundGradient = ({
             : undefined
         }
         style={{
-          backgroundSize: animate ? "400% 400%" : undefined,
+          backgroundSize: animate ? "200% 200%" : undefined,
         }}
         className={cn(
           "absolute inset-0 rounded-3xl z-[1] will-change-transform",

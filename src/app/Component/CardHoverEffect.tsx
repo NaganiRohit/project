@@ -66,7 +66,7 @@ function CardHoverEffect() {
 </div>
 
 
-<div className="max-w-28xl mx-auto px-8 ">
+<div className="w-auto h-auto mx-auto px-8 ">
       <HoverEffect items={projects} />
       
     </div>

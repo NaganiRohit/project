@@ -11,7 +11,7 @@ function Navbar({ className }: { className?: string }) {
   const [active, setActive] = useState<string | null>(null);
   return (
     
-    <div className={cn("academy text-xl fixed top-10 inset-x-0 max-w-xl mx-auto z-50", className)}
+    <div className={cn("academy text-xl fixed top-10 inset-x-0 max-w-sm mx-auto z-50", className)}
     >
        <Menu setActive={setActive}>
         <Link href={"/"}>
