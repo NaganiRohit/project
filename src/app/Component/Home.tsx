@@ -35,7 +35,7 @@ export default function SpotlightPreview() {
 
 <Link href='/Courses' >
 
-<div className="items-center flex justify-center  ">
+<div className="items-center flex justify-center mt-5  ">
       <Button/>  </div>
       </Link>
 

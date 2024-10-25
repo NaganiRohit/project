@@ -33,7 +33,7 @@ export const projects = [
 
 function CardHoverEffect() {
   return (
-    <div className='w-full h-full overflow-hidden bg-gray-950 mb-4'>
+    <div className='w-full h-full overflow-hidden bg-gray-950 mb-12'>
      <div className='flex  w-full justify-center flex-wrap'>
      <h1 className='text-sky-500 pt-30 pt-20 pb-10 text-xl'>
         FEATURED WEBINARS
